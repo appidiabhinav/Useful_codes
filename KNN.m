@@ -1,5 +1,5 @@
 % train female data directory
-chdir('C:\Users\abhi\Videos\smai\train\Female');
+chdir('.\train\Female');
 list = dir;  
 
 M = 317; %no. of samples
@@ -46,7 +46,7 @@ Y = [1;1;1;1;1;1;1;1;1;1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1];
 
 %testing
 
-chdir('C:\Users\abhi\Videos\smai\test');
+chdir('.\test');
 list=dir;
 N = 344;
 Final = zeros(1,N);
