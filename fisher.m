@@ -2,7 +2,7 @@
 % class 2 == female
 
 % train data directory
-chdir('C:\Users\abhi\Videos\smai\UNRGenderDB\train\');
+chdir('.\train\');
 list = dir;
 
 % constants
